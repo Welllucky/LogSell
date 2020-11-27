@@ -1,0 +1,36 @@
+===================================================================================================================================================
+------------< LogSell é um projeto opensource que visa auxiliar micro e pequenos empresários com o gerenciamento de seus produtos e finanças. A aplicação poderá ser usado para fins comerciais e modificado para atender as necessidades do empreendedor. Nos Auxilie com seu código. >-----------
+===================================================================================================================================================
+
+Funcionalidades
+
+## -> Funcionalidades para o futuro que hoje são inviáveis de produzir
+
+    #1 - Gerenciamento de Produtos 
+        Cadastrar produtos (nome, código, preço, tipo, subtipo, marca, data de fabricação, validade, tempo para expirar, local, ##código de barra)
+        Ver produtos
+        Localizar produtos
+        remover produtos
+        modificar valores dos produtos
+        log de saída e entrada de produtos (nome, código, data, hora, quantidade, preço do motante, local)
+        ##leitor de código de barras
+
+    #2 - Gerenciador de Finanças
+        lucro
+        despesas
+        log de movimentação de capital (dinheiro, data, hora, dia, motivo)
+        
+    #3 - Plataforma de uso 
+        listagem de produtos e preços
+        soma de preço
+        remover produto da listagem e subtrair preço
+        receber valor de recebimento
+        mostrar troco em valor e em cédulas
+        ##contador de cédulas e moedas no caixa (dispositivo que calcula a quantidade de moedas que vão serseparadas em compartimentos diferentes  referentes ao valor da moeda, enquanto o das cédulas se dará na quantidade de vezes que o dispenser seja movimentado)
+
+
+Tecnologias <Sujeito a Mudanças>
+    Python  (Funcionalidades)
+    MySQL   (Dados)
+    Tkinter (Interface)
+
